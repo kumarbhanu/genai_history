@@ -20,6 +20,7 @@ load_dotenv()
 DATA_FILE = os.path.join(os.getcwd(), "data/eds_data.txt")
 
 groq_api_key = st.secrets["GROQ_API_KEY"]
+HF_TOKEN = st.secrets["HF_TOKEN"]
 # Initialize session state if not already present
 if 'store' not in st.session_state:
     st.session_state.store = {}
