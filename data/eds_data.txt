@@ -1,0 +1,169 @@
+
+# EDS UI Library Documentation
+
+## Buttons
+- Use `eds-btn` for buttons.
+- Use `eds-btn-primary` for primary buttons.
+- Use `eds-btn-secondary` for secondary buttons.
+
+Example:
+<button class="eds-btn eds-btn-primary">Primary Button</button>
+<button class="eds-btn eds-btn-secondary">Secondary Button</button>
+
+## Containers
+- Use `eds-container` for a fixed-width container.
+- Use `eds-container-fluid` for a full-width container.
+
+Example:
+<div class="eds-container">
+  Fixed-width content goes here.
+</div>
+<div class="eds-container-fluid">
+  Full-width content goes here.
+</div>
+
+## Forms
+- Use `eds-form` for creating forms.
+- Use `eds-input` for form inputs.
+
+Example:
+<div class="eds-form">
+  <label for="username">Username</label>
+  <input type="text" id="username" class="eds-input" placeholder="Enter your username">
+  
+  <label for="password">Password</label>
+  <input type="password" id="password" class="eds-input" placeholder="Enter your password">
+  
+  <button class="eds-btn eds-btn-primary">Login</button>
+</div>
+
+## Inputs
+- Use `eds-input` for text inputs.
+- Use `eds-input-lg` for large inputs.
+- Use `eds-input-sm` for small inputs.
+- Use `eds-input-disabled` for disabled inputs.
+- Use `eds-textarea` for multiline inputs.
+
+Example:
+<input type="text" class="eds-input" placeholder="Enter text">
+<input type="text" class="eds-input eds-input-lg" placeholder="Large input">
+<textarea class="eds-textarea" placeholder="Enter multiline text"></textarea>
+<input type="text" class="eds-input eds-input-sm" placeholder="Small input">
+<input type="text" class="eds-input eds-input-disabled" placeholder="Disabled input" disabled>
+
+## Data Tables
+- Use `eds-table` for basic tables.
+- Use `eds-table-striped` for striped rows.
+- Use `eds-table-bordered` for tables with borders.
+- Use `eds-table-hover` for hoverable rows.
+- Use `eds-table-sm` for smaller table sizes.
+
+Example:
+<table class="eds-table eds-table-striped eds-table-bordered">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+      <th>Country</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>John Doe</td>
+      <td>28</td>
+      <td>USA</td>
+    </tr>
+    <tr>
+      <td>Jane Smith</td>
+      <td>32</td>
+      <td>Canada</td>
+    </tr>
+  </tbody>
+</table>
+
+## Cards
+- Use `eds-card` for basic card.
+- Use `eds-card-header` for card headers.
+- Use `eds-card-body` for the body of the card.
+- Use `eds-card-footer` for card footers.
+
+Example:
+<div class="eds-card">
+  <div class="eds-card-header">
+    Card Header
+  </div>
+  <div class="eds-card-body">
+    This is the body of the card.
+  </div>
+  <div class="eds-card-footer">
+    Card Footer
+  </div>
+</div>
+
+## Modals
+- Use `eds-modal` for modals.
+- Use `eds-modal-header` for the modal header.
+- Use `eds-modal-body` for the modal body.
+- Use `eds-modal-footer` for the modal footer.
+
+Example:
+<div class="eds-modal">
+  <div class="eds-modal-header">
+    Modal Header
+  </div>
+  <div class="eds-modal-body">
+    This is the modal body.
+  </div>
+  <div class="eds-modal-footer">
+    <button class="eds-btn eds-btn-secondary">Close</button>
+  </div>
+</div>
+
+## Navigation
+- Use `eds-nav` for navigation bars.
+- Use `eds-nav-item` for each navigation item.
+- Use `eds-nav-link` for the navigation links.
+
+Example:
+<nav class="eds-nav">
+  <a class="eds-nav-link eds-nav-item" href="#">Home</a>
+  <a class="eds-nav-link eds-nav-item" href="#">About</a>
+  <a class="eds-nav-link eds-nav-item" href="#">Services</a>
+  <a class="eds-nav-link eds-nav-item" href="#">Contact</a>
+</nav>
+
+## Alerts
+- Use `eds-alert` for alerts.
+- Use `eds-alert-success` for success alerts.
+- Use `eds-alert-info` for informational alerts.
+- Use `eds-alert-warning` for warning alerts.
+- Use `eds-alert-danger` for danger alerts.
+
+Example:
+<div class="eds-alert eds-alert-success">
+  This is a success alert!
+</div>
+<div class="eds-alert eds-alert-danger">
+  This is a danger alert!
+</div>
+
+## Pagination
+- Use `eds-pagination` for basic pagination.
+- Use `eds-pagination-item` for pagination items.
+- Use `eds-pagination-link` for pagination links.
+
+Example:
+<ul class="eds-pagination">
+  <li class="eds-pagination-item">
+    <a href="#" class="eds-pagination-link">&laquo;</a>
+  </li>
+  <li class="eds-pagination-item">
+    <a href="#" class="eds-pagination-link">1</a>
+  </li>
+  <li class="eds-pagination-item">
+    <a href="#" class="eds-pagination-link">2</a>
+  </li>
+  <li class="eds-pagination-item">
+    <a href="#" class="eds-pagination-link">&raquo;</a>
+  </li>
+</ul>
