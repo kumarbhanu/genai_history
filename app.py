@@ -17,7 +17,7 @@ from langchain_core.runnables.history import RunnableWithMessageHistory
 load_dotenv()
 # groq_api_key = os.getenv('GROQ_API_KEY')
 # os.environ['HF_TOKEN'] = os.getenv('HF_TOKEN')
-DATA_FILE = os.path.join(os.getcwd(), "data/eds_data.txt")
+DATA_FILE = os.path.join(os.getcwd(), "deds_data.txt")
 
 groq_api_key = st.secrets["GROQ_API_KEY"]
 HF_TOKEN = st.secrets["HF_TOKEN"]
